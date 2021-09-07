@@ -1,4 +1,4 @@
-# stick-figure-game
+# posenet-test
 
 ## Project setup
 ```

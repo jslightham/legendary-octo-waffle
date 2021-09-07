@@ -5,6 +5,15 @@ const Schema = mongoose.Schema;
 let Player = new Schema({
     name: {
         type: String
+    },
+    session: {
+        type: String
+    },
+    colour: {
+        type: Number
+    },
+    score: {
+        type: Number
     }
 }, {
     collection: 'players'

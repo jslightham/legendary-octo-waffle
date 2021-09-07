@@ -8,6 +8,9 @@ let Room = new Schema({
     },
     members: {
         type: Array
+    },
+    game: {
+        type: String
     }
 }, {
     collection: 'rooms'

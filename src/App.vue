@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="app">
     <router-view></router-view>
   </div>
 </template>
@@ -13,8 +13,8 @@ export default {
 </script>
 
 <style>
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
+.app{
+  background-color: #f2f2f2;
+  height: 100vh;
+}
 </style>
